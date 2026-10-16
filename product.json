@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "name": "AI开发交付审计官",
   "kind": "public_documentation_and_synthetic_example",
-  "description": "我们原创设计的AI开发验收Skill：检查AI写的程序是否按要求完成，列问题清单，修改后再复查。",
+  "description": "帮你发现 AI 开发跑偏，并把工作拉回原要求：查漏做、查做错、查“没做好就说完成”，改完再检查。",
   "audience": [
     "已有AI开发成果的开发者",
     "需要核对阶段交付的人"
