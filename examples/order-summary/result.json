@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "kind": "historical_synthetic_demo_summary",
+  "product": "AI开发交付审计官",
+  "observed_date": "2026-10-16",
+  "environment": {
+    "host": "Mac",
+    "entry": "Codex",
+    "python": "3.14.5"
+  },
+  "synthetic": true,
+  "known_defects_seeded": true,
+  "customer_case": false,
+  "blind_test": false,
+  "amount_unit": "integer_cents",
+  "before": {
+    "output": {
+      "count": 3,
+      "total_cents": 11504,
+      "ids": [
+        "A01",
+        "A02",
+        "A04"
+      ]
+    },
+    "provided_tests": {
+      "total": 4,
+      "passed": 1,
+      "failed": 3
+    }
+  },
+  "after": {
+    "output": {
+      "count": 3,
+      "total_cents": 1505,
+      "ids": [
+        "A01",
+        "A03",
+        "A04"
+      ]
+    },
+    "provided_tests": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "same_scope_diagnostics": {
+      "total": 9,
+      "matched_expected": 9
+    }
+  },
+  "producer_repair_rounds": 1,
+  "auditor_modified_submission": false,
+  "old_failure_records_retained": true,
+  "scope_limit": "仅为该次本地历史结果；不是全缺陷覆盖、跨平台或订阅交付验证；本目录不是可运行复现包。"
+}

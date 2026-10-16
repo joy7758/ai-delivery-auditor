@@ -1,0 +1,6 @@
+id,status,amount_cents
+A01,paid,1200
+A02,cancelled,9999
+A03,paid,0
+A04,paid,305
+A05,pending,600

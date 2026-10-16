@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "name": "AI开发交付审计官",
+  "kind": "public_documentation_and_synthetic_example",
+  "description": "检查AI开发成果是否符合要求，反馈有依据的问题，并在开发执行者返工后复验新版本。",
+  "audience": [
+    "已有AI开发成果的开发者",
+    "需要核对阶段交付的人"
+  ],
+  "inputs": [
+    "目标及有效补充",
+    "当前成果位置",
+    "允许检查的范围",
+    "已有测试和版本记录（如有）"
+  ],
+  "outputs": [
+    "逐项检查结果",
+    "问题位置与依据",
+    "修改清单",
+    "新版本复验结果",
+    "尚缺证据的范围"
+  ],
+  "audit_policy": "按用户或任务需要使用",
+  "entry": "已完成接入的Codex环境",
+  "validated_environment": [
+    "Mac + Codex（本地）"
+  ],
+  "repository_delivers": [
+    "产品说明",
+    "合成示例要求和CSV",
+    "脱敏历史结果节选"
+  ],
+  "installable_from_this_repository": false,
+  "full_skill_included": false,
+  "payment_flow_verified": false,
+  "case": "examples/order-summary/audit-excerpt.md",
+  "usage": "docs/usage.md",
+  "last_documented_date": "2026-10-16"
+}
